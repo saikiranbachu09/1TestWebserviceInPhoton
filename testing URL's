@@ -1,0 +1,24 @@
+http://localhost:8080/kiran/app/getDetails  ==>for get the details
+http://localhost:8080/kiran/app/postDetails/Photon/4
+http://localhost:8080/kiran/app/postDetails1     {
+        "employeeName": "Hyderabad",
+        "employeeNumber": 5
+    }
+http://localhost:8080/kiran/app/putDetails/3
+http://localhost:8080/kiran/app/deleteDetails/4
+
+
+Create
+-------
+echo "# 1TestWebserviceInPhoton" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/saikiranbachu09/1TestWebserviceInPhoton.git
+git push -u origin master
+
+
+PUSH:
+-----
+git remote add origin https://github.com/saikiranbachu09/1TestWebserviceInPhoton.git
+git push -u origin master
