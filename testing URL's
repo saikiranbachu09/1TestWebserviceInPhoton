@@ -1,0 +1,8 @@
+http://localhost:8080/kiran/app/getDetails  ==>for get the details
+http://localhost:8080/kiran/app/postDetails/Photon/4
+http://localhost:8080/kiran/app/postDetails1     {
+        "employeeName": "Hyderabad",
+        "employeeNumber": 5
+    }
+http://localhost:8080/kiran/app/putDetails/3
+http://localhost:8080/kiran/app/deleteDetails/4
