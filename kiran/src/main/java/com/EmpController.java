@@ -105,7 +105,9 @@ public class EmpController {
 	
 	@ResponseBody
 	@RequestMapping(value = "/JsonData", method = RequestMethod.GET)
-	public JSONArray getTestData() {
+	public JSONObject getTestData() {
+		JSONObject jsMain = new JSONObject();
+		
 		JSONArray ja = new JSONArray();
 		
 		JSONObject js1 = new JSONObject();				
@@ -188,7 +190,10 @@ public class EmpController {
 		js4.put("Revenue_Billing", "$1234.64" );
 		ja.add(js4);
 		
-		return ja;
+		
+		jsMain.put("Summary Records ", ja);
+		
+		return jsMain;
 		
 	}
 
